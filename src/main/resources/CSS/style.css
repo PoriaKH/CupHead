@@ -1,0 +1,73 @@
+Button{
+    -fx-pref-height: 35;
+    -fx-pref-width: 350;
+    -fx-border-radius: 5;
+    -fx-background-color: #56d079;
+}
+TextField{
+    -fx-max-width: 350;
+    -fx-max-height: 35;
+    -fx-border-radius: 5;
+}
+Label{
+    -fx-text-fill: #000000;
+    -fx-font-size: 15;
+}
+.Message{
+    -fx-max-width: 0;
+    -fx-max-height: 0;
+}
+
+.RegisterStyle {
+    -fx-pref-height: 35;
+    -fx-pref-width: 350;
+    -fx-border-radius: 5;
+    -fx-background-color: #7a8d0d;
+}
+
+.GuestStyle {
+    -fx-pref-height: 35;
+    -fx-pref-width: 350;
+    -fx-border-radius: 5;
+    -fx-background-color: #ff6102;
+}
+.MainMenuButton{
+    -fx-font-size: 20;
+    -fx-pref-height: 70;
+    -fx-pref-width: 350;
+    -fx-border-radius: 5;
+    -fx-background-color: #ca76ff;
+}
+.ProfileMenuButton{
+    -fx-font-size: 20;
+    -fx-pref-height: 70;
+    -fx-pref-width: 350;
+    -fx-border-radius: 5;
+    -fx-background-color: #ca76ff;
+}
+.Text{
+    -fx-font-size: 25;
+    -fx-pref-height: 70;
+    -fx-pref-width: 350;
+    -fx-border-radius: 5;
+}
+#stack-pane{
+    -fx-background-image: url("https://cdn.app.compendium.com/uploads/user/e7c690e8-6ff9-102a-ac6d-e4aebca50425/ed5569e8-c0dd-458c-8450-cde6300093bd/File/a5023b0f0fb67f59176a0499af9021ed/java_horz_clr.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 500 500;
+    -fx-background-position: center center;
+}
+.GameOverStyle{
+    -fx-font-size: 20;
+    -fx-pref-height: 70;
+    -fx-pref-width: 350;
+    -fx-border-radius: 5;
+    -fx-background-color: #ff1916;
+}
+.VictoryStyle{
+    -fx-font-size: 20;
+    -fx-pref-height: 70;
+    -fx-pref-width: 350;
+    -fx-border-radius: 5;
+    -fx-background-color: #4eb245;
+}
