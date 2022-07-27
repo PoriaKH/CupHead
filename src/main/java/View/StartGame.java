@@ -73,14 +73,14 @@ public class StartGame {
         Game.vulnerability = 50;
         Game.damage = 150;
 
-        switchToGame(event);
+        switchToGame(event,0);
     }
     public void Normal(javafx.event.ActionEvent event) throws IOException {
         Game.health = 5;
         Game.vulnerability = 100;
         Game.damage = 100;
 
-        switchToGame(event);
+        switchToGame(event,1);
     }
 
     public void Hard(javafx.event.ActionEvent event) throws IOException {
@@ -88,10 +88,10 @@ public class StartGame {
         Game.vulnerability = 150;
         Game.damage = 50;
 
-        switchToGame(event);
+        switchToGame(event,2);
     }
 
-    private void switchToGame(javafx.event.ActionEvent event) throws IOException {
+    private void switchToGame(javafx.event.ActionEvent event, int flag) throws IOException {
         MainMenuController.mediaPlayer.pause();
 
         root = FXMLLoader.load(gameMenuFxmlURL);
