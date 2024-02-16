@@ -6,7 +6,7 @@ An implementation of the game CupHead for PC written in Java.
   - javafx
 
 ### Usage
-at first you must register a new ID, login, enjoy the game :)
-use `SPACE` to shoot, `TAB` to change the weapon, arrow-keys to move.
+at first you must register a new ID, login, enjoy the game :)<br />
+use `SPACE` to shoot, `TAB` to change the weapon, arrow-keys to move.<br />
 
 ### Gameplay
