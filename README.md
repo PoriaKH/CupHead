@@ -1,5 +1,3 @@
-
-https://github.com/PoriaKH/CupHead/assets/94684621/2b54f208-4e63-4b44-bbd8-6612aaec8c65
 # CupHead
 An implementation of the game CupHead for PC written in Java.
 
